@@ -37,13 +37,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PrintToConsole.cs" />
+     <Compile Include="Assets\Scripts\Boost\CollisionHandler.cs" />
      <Compile Include="Assets\Scripts\Obstacle\Dropper.cs" />
      <Compile Include="Assets\Scripts\Obstacle\ObjectHit.cs" />
      <Compile Include="Assets\Scripts\Obstacle\Scorer.cs" />
      <Compile Include="Assets\Scripts\Obstacle\Spinner.cs" />
      <Compile Include="Assets\Scripts\Obstacle\Move.cs" />
      <Compile Include="Assets\Scripts\Boost\Movement.cs" />
-     <Compile Include="Assets\Scripts\Boost\CollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Boost\Oscilator.cs" />
+     <Compile Include="Assets\Scripts\Boost\QuitApplication.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Program Files\Unity\Editor\2020.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
